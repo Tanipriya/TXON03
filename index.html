@@ -8,28 +8,28 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="stylesheet/index.css"/>
     <script src="script/index.js" defer></script>
+    <script src="https://kit.fontawesome.com/5f59ca6ad3.js" crossorigin="anonymous"></script>
     <title>Todo Application</title>
 </head>
 <body>
     <div class="todo-container">
-        <div>
+       
             <h1>TODO List</h1>
             <form>
-                <input type="text" id="add-text" placeholder="What do you have planned"/>
-                <input type="submit" id="submit-task" value="Add Task"/>
+                <input type="text" id="add-text" placeholder="What do you have planned" autofocus/>
+                <button id="submit-task">Add</button>  
             </form>
-            <h1>Task</h1>
             <div class="task-container">
-                <form>
-                
-                <input type="text" />
-                
-                    <button class="edit">Edit</button>
-                    <button class="delete">Delete</button>
-                
-            </form>
+                <h1><span class="span">Add</span> Task</h1>
+
+                <ul id="add-todo-list"> 
+
+                </ul>
             </div>
-        </div>
+            
+           
+            
+        
         
     </div>
 </body>

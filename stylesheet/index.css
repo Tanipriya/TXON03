@@ -8,20 +8,34 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-
-   
+    align-items: center;
+}
+.todo-container h1{
+    margin-top: 2rem;
+    font-size: 30px;
 }
 .task-container{
     display: flex;
     justify-content: space-between;
 }
+.task-container h1{
+    margin-top: 10px;
+    font-size: 26px;
+}
+.task-container h1 span{
+    font-weight: bold;
+    font-style:oblique;
+    text-align: left;
+}
 #add-text{
     background-color: #222;
     color: white;
     border-radius: 15px;
-    padding: 10px;
-    flex: 1 1 5%;
+    padding: 8px;
+
     margin-right: 1rem;
+    border: 0;
+    outline: 0;
 
 
 }
