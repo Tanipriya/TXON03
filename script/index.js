@@ -91,7 +91,7 @@ function createAndAppendTodo(todo) {
     let labelId = "label" + todo.uniqueNo;
 
     let todoElement = document.createElement("li");
-    todoElement.classList.add("todo-item-container", "d-flex", "flex-row");
+    todoElement.classList.add("todo-item-container");
     todoElement.id = todoId;
     todoItemsContainer.appendChild(todoElement);
 
